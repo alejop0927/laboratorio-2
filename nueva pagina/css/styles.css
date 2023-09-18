@@ -1,0 +1,299 @@
+ul.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+  background-color: #33443C;
+  font-size: 1em;
+  padding: 25px;
+  right: 50;
+  color: #33443C;
+  margin-top: 00px;
+  margin-right: 0px;
+  font-size: 1.8em; 
+  padding: 10px 0px;
+  
+ 
+  
+  
+  
+}
+
+ul.menu li {
+  display: inline-block;
+  position: relative;
+  margin-right: 0px;
+}
+ul.menu li.menu-item {
+  margin-right: 100px; 
+  display: inline-block;
+  position: relative;
+}
+
+ul.menu  li.btn_m {
+  margin-right: 200px; 
+  display: inline-block;
+  position: relative;
+}
+ul.menu  li.btn_c {
+  margin-right: px; 
+  display: inline-block;
+  position: relative;
+}
+ul.menu  li.btn_i {
+  margin-right: 200px; 
+  display: inline-block;
+  position: relative;
+}
+
+
+ul.menu{
+  font-size: 1.8em; 
+  padding: 10px 0px;
+}
+
+
+.menu li.active a{
+    color:rgb(17, 17, 17);
+}
+.menu li a:hover{
+    background-color: rgb(239, 245, 238);
+    color: #33443C;
+   
+}
+ul.submenu li a:hover{
+  width: 60%;
+
+}
+  
+
+  .menu li a{
+    padding: 35px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: center;
+    color: aliceblue;
+    
+  
+  }
+  
+  nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #e91a1a;
+    z-index: 1;
+  }
+  
+ 
+  
+  nav li {
+    position: relative;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  
+  
+
+  nav {
+  background-color: #fff;
+  z-index: 1;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  position: relative;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+nav ul ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  z-index: 2;
+  display: none;
+ 
+}
+
+
+
+
+.carousel {
+  
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.carousel-expanded {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+}
+
+.image {
+  flex: 1;
+  transition: transform 0.3s, opacity 0.3s;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  opacity: 0.6;
+}
+
+.image:hover,
+.image-active {
+  opacity: 1;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-expanded .image {
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.carousel-expanded .image-active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.carousel-expanded .image-prev,
+.carousel-expanded .image-next {
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.carousel-expanded .image-active,
+.carousel-expanded .image-prev:hover,
+.carousel-expanded .image-next:hover {
+  opacity: 1;
+}
+
+.carousel-expanded .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#cinco {
+  width: 250%;
+  float: left;
+ align-self: ;
+  padding: 0px;
+  background-color: white;
+}
+
+#cinco h3 {
+  color: rgb(7, 7, 7);
+  text-shadow: 2px 2px 5px red;
+}
+
+.image-text {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.image-active .image-text {
+  display: block;
+  opacity: 1;
+}
+.mi-alerta-content {
+  width: 60px !important;
+  height: 40px !important;
+}
+.body-expanded {
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+body {
+  overflow-x: hidden;
+}
+.swal2-image {
+  width: 200px; /* Ajusta el tamaño deseado para las imágenes */
+  height: auto;
+}
+textarea {
+  margin-top: 140px;
+  resize: none;
+  background-color: #33443C;
+  color: white;
+ font-size: 20px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+   
+    
+  
+  
+          
+                  
+                  
+  
+  
+          
+          
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
